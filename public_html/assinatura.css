@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00BFFF;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#assinar {
+    color: black;
+}
+
+#assinar:hover {
+    text-decoration: none;
+    color: #00BFFF;
+}
+
+#assinar:active {
+    text-decoration: none;
+}
+
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+ul li a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#header, #personalize1, #personalize2, #personalize3, #footer {
+    background-color: #4169E1;
+    color: white;
+}
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MET</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assinatura.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>                
+        <script src="assinatura.js"></script>        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container-fluid">    
+            <div class="row">
+                <div class="col-xs-12" id="header"> 
+                    <h1 class="titulo">MET</h1>
+                    <h4 class="titulo">O mundo é de quem se Met</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3"> 
+                    <h3>Plano de Assinatura</h3>
+                    <form>
+                        <p><input type="radio" name="plano" id="plano1" value="plano1" checked> Plano Baby</p>
+                        <p><input type="radio" name="plano" id="plano2" value="plano2"> Plano Médio</p>
+                        <p><input type="radio" name="plano" id="plano3" value="plano3"> Plano Cavalar</p>
+                        <p><input type="radio" name="plano" id="plano4" value="plano4"> Plano Monstro</p>  
+                    </form>
+                </div>
+                <div class="col-xs-9"> 
+                    <img src="img/plano1.png" alt="Plano 1" id="imgPlano"> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4" id="personalize1"> 
+                    <h3>Personalize sua TV</h3>
+                    <form>
+                        <p><input type="checkbox" name="opcionais" id="canaisEsporte"> Pacote de Canais Esporte</p>
+                        <p><input type="checkbox" name="opcionais" id="canaisCinema"> Pacote de Canais Cinema</p>
+                        <p><input type="checkbox" name="opcionais" id="canaisEtnico"> Pacote de Canais Étnicos</p>
+                        <p><input type="checkbox" name="opcionais" id="canaisAdulto"> Pacote de Canais Adultos</p>
+                    </form>
+                </div>
+                <div class="col-xs-4" id="personalize2"> 
+                    <h3>Personalize seu Telefone</h3>
+                    <form>
+                        <p><input type="checkbox" name="opcionais" id="60ddd"> + 60 minutos DDD</p>
+                        <p><input type="checkbox" name="opcionais" id="120ddd"> + 120 minutos DDD</p>
+                        <p><input type="checkbox" name="opcionais" id="60ddi"> + 60 minutos DDD e DDI</p>
+                        <p><input type="checkbox" name="opcionais" id="120ddi"> + 120 minutos DDD e DDI</p>
+                    </form>
+                </div>
+                <div class="col-xs-4" id="personalize3"> 
+                    <h3>Personalize sua Internet</h3>
+                    <form>
+                        <p><input type="checkbox" name="opcionais" id="modem"> Aluguel de Modem</p>
+                        <p><input type="checkbox" name="opcionais" id="roteador"> Aluguel de Roteador Wifi</p>
+                        <p><input type="checkbox" name="opcionais" id="extensor"> Aluguel de Extensor Wifi</p>
+                        <p><input type="checkbox" name="opcionais" id="antena"> Aluguel de Antena Wifi</p>
+                    </form>
+                </div>                
+            </div>
+            <div class="row"><div class="col-xs-12"><p></p></div></div>
+            <div class="row">    
+                <div class="col-xs-5"> 
+                    <h3>Forma de Pagamento</h3>
+                    <input type="radio" name="pgto" id="cartao" checked> Cartão de Crédito &nbsp;&nbsp;
+                    <input type="radio" name="pgto" id="debito"> Débito em Conta (10% de desconto) &nbsp;&nbsp;
+                </div>
+                <div class="col-xs-4"> 
+                    <h1>APENAS <b>R$ <span id="preco">29.90</span></b></h1>
+                </div>
+                <div class="col-xs-3"> 
+                    <h1><b><a href="#" id="assinar">ASSINAR</a></b></h1>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-xs-12" id="footer">
+                    <ul>
+                        <li><a href="#">Institucional</a></li>
+                        <li><a href="#">Assinaturas</a></li>
+                        <li><a href="#">Cadastro</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
